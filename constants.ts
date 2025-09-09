@@ -112,7 +112,8 @@ export const projects: Project[] = [
       'Recommended top 5 tier-2 cities with projected ROI of 12–15%.',
     ],
     tools: ['Power BI', 'SQL', 'Python'],
-    dashboardImage: 'https://i.postimg.cc/pX0A5pX3/retail-project-card.png',
+    dashboardImage: 'project1.png
+',
     chartData: [
       { name: '10', value: 25 },
       { name: '20', value: 15 },
