@@ -2,11 +2,11 @@ import type { Project, Experience, SkillGroup, Certification } from './types';
 
 export const PERSONAL_INFO = {
   name: 'Ramya Pravallika Chadalavada',
-  shortName: 'Ramya Pravallika',
+  shortName: 'Ramya Pravallika C.',
   tagline: 'Turning Data → Insights → Business Value',
-  email: 'ramyapravallika07.@gmail.com',
-  github: 'https://github.com/Ramya-Pravallika',
-  linkedin: 'https://www.linkedin.com/in/ramyapravallika-18072000/',
+  email: 'ramya.pravallika.c@gmail.com',
+  github: 'https://github.com/ramyapravallika',
+  linkedin: 'https://www.linkedin.com/in/ramyapravallikachadalavada/',
   resumeFile: 'Ramya_Pravallika_Chadalavada_Resume.pdf',
 }
 
@@ -112,7 +112,7 @@ export const projects: Project[] = [
       'Recommended top 5 tier-2 cities with projected ROI of 12–15%.',
     ],
     tools: ['Power BI', 'SQL', 'Python'],
-    dashboardImage: 'project1.png',
+    dashboardImage: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
       { name: '10', value: 25 },
       { name: '20', value: 15 },
@@ -135,7 +135,7 @@ export const projects: Project[] = [
       'Enhanced checkout speed, reducing abandonment by 8%.',
     ],
     tools: ['Tableau', 'SQL', 'Python'],
-    dashboardImage: 'https://images.unsplash.com/photo-1556155092-490a1ba16284?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1600880292203-a1dc5e6dba35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
       { name: 'View Product', value: 100 },
       { name: 'Add to Cart', value: 65 },
@@ -156,7 +156,7 @@ export const projects: Project[] = [
       'Recommended tailored offers for premium segments, increasing retention by 12%.',
     ],
     tools: ['Python', 'SQL', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1628744448845-a1bdb4276137?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'High Value', value: 15 },
         { name: 'Mid Value', value: 45 },
@@ -176,7 +176,7 @@ export const projects: Project[] = [
       'Proposed real-time bed occupancy dashboards for better resource utilization.',
     ],
     tools: ['Python', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1605906232543-f62445b497b3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Before', value: 45 },
         { name: 'After', value: 36 },
@@ -195,7 +195,7 @@ export const projects: Project[] = [
       'Improved vehicle utilization by 12% through route clustering.',
     ],
     tools: ['Power BI', 'SQL', 'Excel'],
-    dashboardImage: 'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1616401784845-180845d19702?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'On-Time', value: 94 },
         { name: 'Delayed', value: 6 },
@@ -214,7 +214,7 @@ export const projects: Project[] = [
       'Targeted offers reduced churn risk by 10%.',
     ],
     tools: ['Python', 'Tableau'],
-    dashboardImage: 'https://images.unsplash.com/photo-1593433399041-fb8927a76180?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1611263253329-8a50b1d3b070?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Retained', value: 90 },
         { name: 'Churned', value: 10 },
@@ -233,7 +233,7 @@ export const projects: Project[] = [
       'Helped reduce unnecessary spending by 8%.',
     ],
     tools: ['Python', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1579621970795-87f54f597ba7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1554224155-169544351720?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Food', value: 25 },
         { name: 'Lifestyle', value: 20 },
@@ -254,7 +254,7 @@ export const projects: Project[] = [
       'Improved marketing ROI by 15%.',
     ],
     tools: ['Tableau', 'SQL', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Social Media', value: 40 },
         { name: 'Email', value: 18 },
@@ -275,7 +275,7 @@ export const projects: Project[] = [
       'Proposed automation in document verification to save 15% processing time.',
     ],
     tools: ['Python', 'SQL', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1561414927-6d86591d0c4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1579621970795-87f54f590095?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Legitimate', value: 93 },
         { name: 'Fraudulent', value: 7 },
@@ -294,7 +294,7 @@ export const projects: Project[] = [
       'Designed smart meter insights for household awareness.',
     ],
     tools: ['Python', 'Tableau', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1624397640148-94b8e84e54d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    dashboardImage: 'https://images.unsplash.com/photo-1487875961445-47a00398c267?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Morning', value: 20 },
         { name: 'Afternoon', value: 30 },
