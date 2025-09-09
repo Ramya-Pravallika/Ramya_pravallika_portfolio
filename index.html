@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramya Pravallika | Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --background-light: #f8fafc; /* slate-50 */
+        --background-dark: #0f172a; /* slate-900 */
+        --text-light: #0f172a; /* slate-900 */
+        --text-dark: #cbd5e1; /* slate-300 */
+        --accent: #2dd4bf; /* teal-400 */
+        --accent-hover: #5eead4; /* teal-300 */
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--background-light);
+        color: var(--text-light);
+      }
+      html.dark body {
+        background-color: var(--background-dark);
+        color: var(--text-dark);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      @keyframes gradient-animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      .animated-gradient {
+        background: linear-gradient(-45deg, #0f172a, #1e3a8a, #0d9488, #1e40af);
+        background-size: 400% 400%;
+        animation: gradient-animation 20s ease infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.0",
+    "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="transition-colors duration-500">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
