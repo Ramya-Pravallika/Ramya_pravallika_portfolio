@@ -2,11 +2,11 @@ import type { Project, Experience, SkillGroup, Certification } from './types';
 
 export const PERSONAL_INFO = {
   name: 'Ramya Pravallika Chadalavada',
-  shortName: 'Ramya Pravallika C.',
+  shortName: 'Ramya Pravallika',
   tagline: 'Turning Data → Insights → Business Value',
-  email: 'ramya.pravallika.c@gmail.com',
-  github: 'https://github.com/ramyapravallika',
-  linkedin: 'https://www.linkedin.com/in/ramyapravallikachadalavada/',
+  email: 'ramyapravallika07@gmail.com',
+  github: 'https://github.com/Ramya-Pravallika/',
+  linkedin: 'https://www.linkedin.com/in/ramyapravallika-18072000/',
   resumeFile: 'Ramya_Pravallika_Chadalavada_Resume.pdf',
 }
 

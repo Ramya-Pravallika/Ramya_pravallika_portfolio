@@ -5,22 +5,30 @@ const useTypingEffect = (text: string, speed: number = 100) => {
   const [displayText, setDisplayText] = useState('');
   
   useEffect(() => {
+    let timeoutId: ReturnType<typeof setTimeout>;
     let i = 0;
+
     const type = () => {
       if (i < text.length) {
-        setDisplayText(prev => prev + text.charAt(i));
+        setDisplayText(text.substring(0, i + 1));
         i++;
-        setTimeout(type, speed);
+        timeoutId = setTimeout(type, speed);
       } else {
         // Pause and restart
-        setTimeout(() => {
-          setDisplayText('');
+        timeoutId = setTimeout(() => {
           i = 0;
           type();
         }, 3000);
       }
     };
+    
+    // Start the typing animation
     type();
+
+    // Cleanup function to clear timeout on component unmount
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, [text, speed]);
 
   return displayText;
@@ -52,7 +60,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-black/30"></div>
       <div className="relative text-center bg-white/10 dark:bg-black/20 backdrop-blur-xl p-8 md:p-12 rounded-2xl shadow-2xl border border-white/20">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">{PERSONAL_INFO.name}</h1>
-        <p className="text-xl md:text-2xl text-slate-200 font-light mb-8 h-8">
+        <p className="text-xl md:text-2xl text-slate-200 font-light mb-8 min-h-[2rem]">
           {animatedText}
           <span className="animate-ping">|</span>
         </p>
