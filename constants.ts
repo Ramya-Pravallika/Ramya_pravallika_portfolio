@@ -135,7 +135,7 @@ export const projects: Project[] = [
       'Enhanced checkout speed, reducing abandonment by 8%.',
     ],
     tools: ['Tableau', 'SQL', 'Python'],
-    dashboardImage: 'https://images.unsplash.com/photo-1600880292203-a1dc5e6dba35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
       { name: 'View Product', value: 100 },
       { name: 'Add to Cart', value: 65 },
@@ -195,7 +195,7 @@ export const projects: Project[] = [
       'Improved vehicle utilization by 12% through route clustering.',
     ],
     tools: ['Power BI', 'SQL', 'Excel'],
-    dashboardImage: 'https://images.unsplash.com/photo-1616401784845-180845d19702?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://images.unsplash.com/photo-1587293852726-70cdb1557179?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'On-Time', value: 94 },
         { name: 'Delayed', value: 6 },
@@ -233,7 +233,7 @@ export const projects: Project[] = [
       'Helped reduce unnecessary spending by 8%.',
     ],
     tools: ['Python', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1554224155-169544351720?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://images.unsplash.com/photo-1565511593812-58e23927a71e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Food', value: 25 },
         { name: 'Lifestyle', value: 20 },
@@ -275,7 +275,7 @@ export const projects: Project[] = [
       'Proposed automation in document verification to save 15% processing time.',
     ],
     tools: ['Python', 'SQL', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1579621970795-87f54f590095?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://images.unsplash.com/photo-1542382257-80ded14b0a99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Legitimate', value: 93 },
         { name: 'Fraudulent', value: 7 },
