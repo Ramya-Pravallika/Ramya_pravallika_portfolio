@@ -195,7 +195,7 @@ export const projects: Project[] = [
       'Improved vehicle utilization by 12% through route clustering.',
     ],
     tools: ['Power BI', 'SQL', 'Excel'],
-    dashboardImage: 'https://images.unsplash.com/photo-1587293852726-70cdb1557179?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://www.laceupsolutions.com/wp-content/uploads/2022/01/16-tips-to-boost-warehouse-productivity.jpg',
     chartData: [
         { name: 'On-Time', value: 94 },
         { name: 'Delayed', value: 6 },
@@ -214,7 +214,7 @@ export const projects: Project[] = [
       'Targeted offers reduced churn risk by 10%.',
     ],
     tools: ['Python', 'Tableau'],
-    dashboardImage: 'https://images.unsplash.com/photo-1611263253329-8a50b1d3b070?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://www.saksoft.com/wp-content/uploads/2020/02/behavior-analytics.jpg',
     chartData: [
         { name: 'Retained', value: 90 },
         { name: 'Churned', value: 10 },
@@ -233,7 +233,7 @@ export const projects: Project[] = [
       'Helped reduce unnecessary spending by 8%.',
     ],
     tools: ['Python', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1565511593812-58e23927a71e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://images.unsplash.com/photo-1554224155-1696413565d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
     chartData: [
         { name: 'Food', value: 25 },
         { name: 'Lifestyle', value: 20 },
@@ -275,7 +275,7 @@ export const projects: Project[] = [
       'Proposed automation in document verification to save 15% processing time.',
     ],
     tools: ['Python', 'SQL', 'Power BI'],
-    dashboardImage: 'https://images.unsplash.com/photo-1542382257-80ded14b0a99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3',
+    dashboardImage: 'https://www.damcogroup.com/wp-content/uploads/2023/05/data-analytics-in-claims-processing.jpg',
     chartData: [
         { name: 'Legitimate', value: 93 },
         { name: 'Fraudulent', value: 7 },
