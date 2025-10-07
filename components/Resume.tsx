@@ -12,7 +12,7 @@ export const Resume: React.FC = () => {
           Interested in my detailed professional background? You can download my full resume to learn more about my experience, skills, and qualifications.
         </p>
         <a 
-          href="https://drive.google.com/uc?export=download&id=1qieNkJ0tOooNy9QJr3c2s5ObWfMxmudi"
+          href="https://drive.google.com/file/d/1c3vvYR2nrsnJ89a6niWDP9rHUwLOKB-p/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-teal-500 text-white font-bold py-3 px-8 rounded-full hover:bg-teal-600 dark:hover:bg-teal-500 transition-all duration-300 transform hover:scale-105 shadow-lg"
